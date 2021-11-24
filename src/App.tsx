@@ -1,9 +1,11 @@
 import React from 'react';
+import ReactTest01 from "./component/01-React-test/ReactTest01";
+import './App.css'
 
 function App() {
   return (
     <div className="App">
-      app
+      <ReactTest01 />
     </div>
   );
 }
